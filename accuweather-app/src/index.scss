@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+// global classes
+.nav-link {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: gold;
+  }
+  &.nav-link-active {
+    color: gold;
+  }
+}
+
+a {
+  //color: saddlebrown;
+  color: black;
+  text-decoration: none;
+  display: block;
+}
